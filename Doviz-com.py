@@ -69,19 +69,3 @@ print ("Döviz"+"\t\t"+"Alış"+"\t\t\t"+"Satış"+"\t\t\t"+"Saat")
 print("----------------------------------------------------")
 for doviz,alis,satis,saat in birlestir:
   print("{}\t      {}      {}      {}".format(doviz,alis,satis,saat))
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
