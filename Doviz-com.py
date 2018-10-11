@@ -9,7 +9,6 @@ soup = BeautifulSoup(html_icerigi,"html.parser")
 
 deneme = soup.find_all("td",{"class":"column-row5"})
 doviz = []
-dizi = []
 for j in deneme:
     
     j = j.text
@@ -34,8 +33,6 @@ yeniDoviz = yeniDoviz.split(",")
 
 yeniDoviz[0] = yeniDoviz[0].strip("[]")
 
-dizi = str(dizi)
-dizi = dizi.split(" ")
 
 alisSatisFark = []
 saatler = []    
