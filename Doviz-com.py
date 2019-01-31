@@ -7,9 +7,9 @@ response = requests.get(url)
 html_icerigi = response.content
 soup = BeautifulSoup(html_icerigi,"html.parser")
 
-deneme = soup.find_all("td",{"class":"column-row5"})
+doviz_sutunu = soup.find_all("td",{"class":"column-row5"})
 doviz = []
-for j in deneme:
+for j in doviz_sutunu:
     
     j = j.text
     j=j.strip("\n")
